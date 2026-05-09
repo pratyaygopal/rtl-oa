@@ -1,0 +1,15 @@
+{
+  "signal": [
+    { "name": "clk",          "wave": "p............" },
+    { "name": "rst",          "wave": "1.0.........." },
+
+    { "name": "bit_valid",    "wave": "0.1.......0.." },
+    { "name": "bit_ready",    "wave": "0.1.......01." },
+    { "name": "bit_in",       "wave": "x.========x..", "data": ["1", "0", "1", "1", "0", "0", "1", "0"] },
+
+    { "name": "out_ready",    "wave": "1............" },
+    { "name": "out_valid",    "wave": "0.........10." },
+    { "name": "out_data",     "wave": "=.........=..", "data": ["00", "B2"] },
+    { "name": "packet_match", "wave": "0.........10." }
+  ]
+}
